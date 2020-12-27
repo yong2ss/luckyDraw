@@ -60,7 +60,7 @@ public class ExcelFunction {
 		try{
 			FileInputStream file = new FileInputStream(fileUrl);
 
-			if(file == null) {
+			if(file == null) { 
 				file = new FileInputStream("./src/lotto_project/resource/lotto.xlsx");
 			}
 			
